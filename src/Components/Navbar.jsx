@@ -13,7 +13,7 @@ const Navbar = () => {
                     </button>
                     <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                         <div className="offcanvas-header">
-                            <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style={{ outline: "none", boxShadow: "none", border: "none" }}></button>
+                            <button type="button" className="btnClose ms-auto text-light" data-bs-dismiss="offcanvas" aria-label="Close" style={{ outline: "none", boxShadow: "none", border: "none"}}><i className="bi bi-x-lg"></i></button>
                         </div>
                         <div className="offcanvas-body">
                             <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">

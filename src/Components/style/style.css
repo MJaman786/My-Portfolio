@@ -1,4 +1,14 @@
-.offcanvas{
+.offcanvas {
     background-color: rgba(0, 0, 0, 0.5) !important;
     backdrop-filter: blur(30px);
+}
+
+.offcanvas .nav-link {
+    color: aliceblue !important;
+}
+
+.offcanvas .btnClose {
+    font-size: 20px;
+    background-color: transparent;
+    /* backdrop-filter: blur(30px); */
 }
