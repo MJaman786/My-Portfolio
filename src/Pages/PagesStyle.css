@@ -1,11 +1,16 @@
 @font-face {
     font-family: 'popins';
-    src: url("/fonts/Poppins/Poppins-Thin.ttf");
+    src: url("/fonts/Poppins/Poppins-Regular.ttf");
 }
 
 @font-face {
     font-family: 'robot';
     src: url("/fonts/Roboto/static/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'robot mono';
+    src: url("/fonts/RobotMono/static/RobotoMono-Regular.ttf");
 }
 
 .homeContainer {
@@ -51,19 +56,23 @@
   color: green;
 }
 
-
-
 .homeContainer .card .card-title {
     /* background-color: aqua; */
     font-size: 50px;
     font-family: 'robot';
 }
 
+.homeContainer .card .card-text {
+    /* background-color: aqua; */
+    /* font-size: 50px; */
+    font-family: 'robot mono';
+}
+
 .dash-line {
     display: inline-block;
     width: 50px;
     height: 2px;
-    background-color: #00000049;
+    background-color: #f7ca3e;
 }
 
 .profile-line {
@@ -74,7 +83,9 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    font-family: 'popins';
+    font-family: 'robot mono';
+    color: #f7ca3e;
+    font-weight: 700;
 }
 
 @media (max-width:764px) {
@@ -99,9 +110,14 @@
         text-align: center;
     }
 
+    .dash-line{
+        width: 20px;
+    }
+
     .homeContainer .card .profile-tech {
         display: flex;
         align-items: center;
         justify-content: center;
+        font-size: 5vw;
     }
 }
