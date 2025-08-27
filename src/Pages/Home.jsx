@@ -35,7 +35,8 @@ const Home = () => {
                                     <div class="card-body">
                                         <h1 class="card-title mb-0">Aman Mujawar</h1>
                                         <h3 class="card-text profile-tech mb-0"><span className="dash-line"></span> <span className="profile-line">Python FullStack</span></h3>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text">IT aspirant with knowledge of Web Development, Machine Learning. Interested in building efficient software solutions and learning new
+                                            technologies</p>
                                         <p class="card-text"><small class="text-body-secondary" id="date">{myDate}</small></p>
                                     </div>
                                 </div>
