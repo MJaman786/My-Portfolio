@@ -28,7 +28,7 @@ const Home = () => {
                             <div class="row g-0 p-2">
                                 {/* card image */}
                                 <div class="col-12 col-md-4 text-center">
-                                    <img src="/img/gojo.png" class="img-fluid rounded-start" alt="..." style={{ height: "300px", objectFit: "contain" }} />
+                                    <img src="/img/gojo_2.png" class="img-fluid rounded-start" alt="..." style={{ height: "300px", objectFit: "contain" }} />
                                 </div>
                                 {/* card text */}
                                 <div class="col-12 col-md-6">
